@@ -21,7 +21,6 @@ function App() {
         <Header />
         <Routes>
           <Route element={<Home></Home>} path="/" />
-
           <Route element={<Home></Home>} path="homepage" />
           <Route element={<Login></Login>} path="login" />
           <Route element={<Register />} path="register" />
